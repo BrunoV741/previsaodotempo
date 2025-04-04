@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Previsão do Tempo</h1>
+        <input class="input-cidade" type="text" placeholder="Digite o nome da cidade">
+        <button onclick="pegaCidade()" class="pesquisa">
+            <img class="btn" src="https://www.svgrepo.com/show/508169/search.svg" alt="">
+        </button>
+        <div class="box-media">
+            <h2 class="cidade">Cidade</h2>
+            <h2 class="temperatura">Temperatura</h2>
+            <div class="box-pequena">
+                <img class="icone-previsao" src="https://openweathermap.org/img/wn/01n.png" alt="">
+                <p class="previsao">Nuvens Dispersas</p>
+            </div>
+            <p class="umidade">Umidade: 85%</p>
+        </div>
+    </div>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
